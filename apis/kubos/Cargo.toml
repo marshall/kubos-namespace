@@ -1,0 +1,13 @@
+[package]
+name = "kubos"
+version = "0.1.0"
+authors = ["Marshall Culpepper <marshall@kubos.com>"]
+
+[dependencies]
+kubos-app = { path = "../kubos-app", optional = true }
+kubos-telemetry = { path = "../kubos-telemetry", optional = true }
+
+[features]
+default = []
+app = ["kubos-app"]
+telemetry = ["kubos-telemetry"]

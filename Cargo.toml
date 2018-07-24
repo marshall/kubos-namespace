@@ -1,0 +1,8 @@
+[workspace]
+
+members = [
+    "apis/kubos",
+    "apis/kubos-app",
+    "apis/kubos-telemetry",
+    "examples/example-app",
+]

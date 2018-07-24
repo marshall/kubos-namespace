@@ -1,0 +1,7 @@
+[package]
+name = "example-app"
+version = "0.1.0"
+authors = ["Marshall Culpepper <marshall@kubos.com>"]
+
+[dependencies]
+kubos = { path = "../../apis/kubos", features = ["app", "telemetry"] }
